@@ -28,7 +28,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://study-assistant-jet.vercel.app"],
+    allow_origins=["http://localhost:5173", "https://study-assistant-seven-sooty.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
